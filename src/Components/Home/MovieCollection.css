@@ -1,0 +1,6 @@
+.header {
+  position: fixed;
+  top: 65px;
+  z-index: 9;
+  margin: auto;
+}
