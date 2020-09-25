@@ -27,32 +27,16 @@ class HomePage extends Component {
   render() {
     return (
       <div className="home">
-        <Navbar style={{ width: "100%" }} bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark">
           <Navbar.Brand>Movie Collection App</Navbar.Brand>
         </Navbar>
-        <Container
-          fluid
-          className="main"
-          style={{ height: "calc(100vh - 65px" }}
-        >
+        <Container fluid className="main">
           <Row>
-            <Col
-              style={{
-                height: "100%",
-                overflow: "scroll",
-                position: "relative",
-              }}
-            >
+            <Col>
               <h1>My Collection</h1>
               <MovieCollection movieCollection={this.state.movieCollection} />
             </Col>
-            <Col
-              style={{
-                height: "100%",
-                overflow: "scroll",
-                position: "relative",
-              }}
-            >
+            <Col>
               <SearchBar />
               <SearchResults movieCollection={this.state.movieCollection} />
             </Col>

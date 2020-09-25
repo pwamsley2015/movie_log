@@ -1,4 +1,7 @@
-.main {
+.home {
   height: 100vh;
-  overflow: hidden;
+}
+
+.main {
+  height: calc(100vh - 65px);
 }
