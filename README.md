@@ -4,7 +4,7 @@
 This application was built using React and Firebase. 
 
 ## Demo
-I deployed the app to https://pwamsley2015.github.io/movie for an easy demo. 
+I deployed the app to https://pwamsley2015.github.io/movie_log for an easy demo. 
 
 ## Run locally
 To run locally, first clone this repo. 
